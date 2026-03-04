@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    color: rgb(116, 102,112);
+    text-decoration: none;
+    margin-top: 40px;
+}
+a:hover{
+    color: black;
+}
+p{
+    margin-top: 10px;
+}
+.zag{
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+}
+.BL{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 229, 233);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inf{
+    width: 57%;
+    height: 60%;
+    padding: 2%;
+    background-color: white;
+}
+.inf img{
+    margin-right: 50px;
+}
+input[type=text], input[type=password]{
+    border: 0;
+    border-bottom: 2px solid black;
+
+    height: 45px;
+    margin-top: 30px;
+    padding-left: 2px;
+}
+input[type=submit]{
+    margin-top: 40px;
+    width: 35%;
+    height: 60px;
+    border: none;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 14pt;
+}
+input[type=submit]:hover{
+    background-color: rgb(80, 80, 80);
+}
+.div_button{
+    display: flex;
+    justify-content: center;
+}
+input:focus{
+}

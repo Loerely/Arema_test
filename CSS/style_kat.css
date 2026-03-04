@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header*/
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+}
+header p{
+    color: white;
+}
+header .line{
+    background-color:  rgb(230, 193, 72);
+}
+header .line a{
+    color: black;
+}
+header .line a:hover{
+    color: white;
+}
+header a:hover{
+    color: rgb(230, 193, 72);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../IMG/title/background_img1.png);
+    height: 10vh;
+    background-image: none;
+}
+header>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px
+}
+header dir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.but1{
+    width: 170px;
+    height: 40px;
+    background-color: #515be0;
+    border-radius: 20px;
+}
+
+
+
+/*Bl 5*/
+.bl5{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.bl5 .zag1{
+    font-size: 32pt;
+    font-weight: bold;
+}
+.bl5 .zag2{
+    font-size: 16pt;
+}
+.bl5 .inf{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 200px;
+    row-gap: 100px;
+    padding: 3%;
+}
+.bl5 .block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bl5 .p1{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+.bl5 .p2{
+    font-size: 13pt;
+    margin-top: 10px;
+}
+.bl5 .p3{
+    font-size: 16pt;
+    color: #FCCA3A;
+    margin-top: 10px;
+}
+.bl5 a{
+    color: #515be0;
+}
+.bl5 img{
+    width: 383px;
+    height: 269px;
+    border-radius: 15px;
+}

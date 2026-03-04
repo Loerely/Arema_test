@@ -1,0 +1,397 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+dir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.line{
+    background-color: #91D9FC;
+    width: 3px;
+    height: 100px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*header*/
+header{
+    background-image: url(../IMG/rass4et/header/BackGround.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+}
+header p{
+
+    color: white;
+
+}
+.div_logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 13%;
+}
+.div_logo p{
+    text-align: center;
+}
+header .num{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.div_header{
+    width: 60%;
+    height: 87%;
+    margin-right: 200px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.div_header .zag{
+    font-size: 35pt;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.div_header .zag2{
+    font-size: 18pt;
+    margin-bottom: 30px;
+}
+header .row{
+    display: flex;
+    flex-direction: row;
+}
+header dir{
+    margin-right: 40px;
+}
+header dir img{
+    margin-right: 15px;
+}
+header button{
+    width: 40%;
+    height: 45px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FCCA3A;
+    font-size: 14pt;
+}
+
+
+/*Bl1*/
+.bl1{
+    background-image: url(../IMG/rass4et/bl1/Backgroung.png);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bl1>div{
+    height: 70%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+}
+.bl1 .zag{
+    font-size: 38pt;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.bl1 .zag2{
+    font-size: 22pt;
+    margin-bottom: 40px;
+}
+
+.bl1 dir img{
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bl1 dir p{
+    font-size: 16pt;
+}
+.bl1 .row{
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.bl1 a{
+    color: #1168AC;
+    margin-left: 20px;
+}
+
+
+/*Bl2*/
+.bl2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.bl2 .text{
+    padding: 50px;
+    text-align: center;
+}
+.bl2 .zag{
+    font-size: 60pt;
+    font-weight: bold;
+}
+.bl2 .zag2{
+    font-size: 14pt;
+}
+
+
+
+
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #171717;
+    text-align: center;
+    height: 12vh;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: #FF8562;
+    margin-top: 10px;
+}
+
+
+/*Dialog*/
+.close{
+    margin-left: 69%;
+}
+dialog[open]{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: none;
+}
+.dialog_bl{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dialog_inf{
+    width: 70%;
+    height: 65%;
+    background-color: white;
+}
+
+
+/*содержимое диалога*/
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+.lining{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zag_row{
+    justify-content: space-between;
+    width: 60%;
+    padding-left: 30px;
+}
+
+.slide1{
+    
+}
+.slide2{
+    display: none;
+}
+.slide3{
+    display: none;
+}
+.slide4{
+    display: none;
+}
+.slide5{
+    display: none;
+}
+.slide6{
+    display: none;
+}
+.slide7{
+    display: none;
+}
+.lining1{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 15%, #D4EFFC 15%, #D4EFFC 100%);
+}
+.lining2{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 25%, #D4EFFC 25%, #D4EFFC 100%);
+}
+.lining3{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 35%, #D4EFFC 35%, #D4EFFC 100%);
+}
+.lining4{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 50%, #D4EFFC 50%, #D4EFFC 100%);
+}
+.lining5{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 65%, #D4EFFC 65%, #D4EFFC 100%);
+}
+.lining6{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 75%, #D4EFFC 75%, #D4EFFC 100%);
+}
+.lining7{
+    background: linear-gradient(to right, #91D9FC 0%, #91D9FC 90%, #D4EFFC 90%, #D4EFFC 100%);
+}
+.lining8{
+    background-color: #91D9FC;
+}
+
+
+
+.div_form{
+    background-color: white;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+.slide .zag{
+    font-size: 13pt;
+    margin-right: 30px;
+}
+.slide .zag2{
+    font-size: 16pt;
+    border: 1px #91D9FC solid;
+    width: 33px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+}
+.slide .zag3{
+    font-size: 22pt;
+}
+.slide input[type=radio]{
+    margin-right: 10px;
+}
+.slide .zag4{
+    font-size: 13pt;
+}
+.slide .zag2, .zag3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form input[type=checkbox]{
+    margin-right: 15px;
+}
+form .inf{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+form .inf>div{
+    margin-right: 40px;
+}
+
+dialog .buttons{
+    position: absolute;
+    bottom: 18%;
+    margin-left: 20%;
+}
+.slideBut{
+    background: none;
+    border: 1px solid #1168AC;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 16pt;
+}
+.slideBut:hover{
+    border: 1px solid #103857;
+}
+.prev_but{
+    margin-right: 250px;
+}
+.lastDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lastDiv .p1{
+    width: 100%;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+.lastDiv input[type=text]{
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(138, 138, 138);
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.lastDiv input[type=submit]{
+    width: 300px;
+    height: 40px;
+    background-color: #FCCA3A;
+    border: none;
+    border-radius: 50px;
+    font-size: 15pt;
+    color: white;
+    margin-top: 20px;
+}
+.lastDiv .divImg{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.lastDiv .divImg img{
+    width: 70%;
+    margin-top: 30px;
+}
+.lastDiv .p2{
+    font-weight: bold;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+.lastDiv .p3{
+    color: #494949;
+    font-size: 12pt;
+    margin-top: 20px;
+}
+.lastDiv .p4{
+    margin-left: 30px;
+    color: #FCCA3A;
+    font-size: 17pt;
+}

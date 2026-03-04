@@ -1,0 +1,8 @@
+/*Formular*/
+@font-face {
+	font-family: 'Nunito'; 
+	src: url(../font/ofont.ru_Nunito1.ttf); 
+}
+*{
+    font-family: Nunito;
+}

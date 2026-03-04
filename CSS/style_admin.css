@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header*/
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+}
+header p{
+    color: white;
+}
+header .line{
+    background-color:  rgb(230, 193, 72);
+}
+header .line a{
+    color: black;
+}
+header .line a:hover{
+    color: white;
+}
+header a:hover{
+    color: rgb(230, 193, 72);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../IMG/title/background_img1.png);
+    height: 13vh;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px
+}
+header dir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.but1{
+    width: 170px;
+    height: 40px;
+    background-color: #515be0;
+    border-radius: 20px;
+}
+.container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto  auto auto ;
+    row-gap: 40px;
+    justify-items: center;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.inf{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    justify-items: center;
+}
